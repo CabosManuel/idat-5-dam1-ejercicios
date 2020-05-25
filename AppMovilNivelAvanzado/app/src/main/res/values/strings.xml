@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppMovilNivelAvanzado</string>
+    <string name="valtvtitulo">Nivel Avanzado</string>
+    <string name="vale21">Ejercicio #21</string>
+    <string name="vale22">Ejercicio #22</string>
+    <string name="vale23">Ejercicio #23</string>
+    <string name="vale24">Ejercicio #24</string>
+    <string name="vale25">Ejercicio #25</string>
+    <string name="vale26">Ejercicio #26</string>
+    <string name="vale27">Ejercicio #27</string>
+    <string name="vale28">Ejercicio #28</string>
+    <string name="valbtnvolver"><![CDATA[< Volver]]></string>
+    <string name="valtvfactorial">Ingrese un número, para calcular su factorial:</string>
+    <string name="valbtncalcular">CALCULAR</string>
+    <string name="valtvresultado">Resultado:</string>
+</resources>
