@@ -59,22 +59,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private String ejercicioAlazar() {
-        Integer ejercicio = 29;
+    private int ejercicioAlazar() {
 
-        int[] resueltos={1,2,3,4,15,21};
-        boolean resuelto=false;
 
-        while(!(ejercicio>28 & !resuelto)){
-            ejercicio = (int) Math.round(Math.random() * 100);
-            for (int  i: resueltos) {
-                if (ejercicio == i) {
-                    resuelto = true;
+        int[] resueltos = {1, 2, 3, 4, 15, 21};
+        int ejercicio = 0;
+
+        boolean existe = true;
+
+        while (existe) {
+            while (ejercicio > 28 || ejercicio == 0) {
+                ejercicio = (int) Math.round(Math.random() * 100);
+            }
+
+            for (int resuelto : resueltos) {
+                if (ejercicio == resuelto) {
+                    ejercicio = 0;
                     break;
                 }
-            }
-        }
 
-        return ejercicio.toString();
+                if (resuelto == resueltos[resueltos.length - 1]) {
+                    existe = false;
+                }
+            }
+            System.out.println(existe);
+        }
+        return ejercicio;
     }
 }
