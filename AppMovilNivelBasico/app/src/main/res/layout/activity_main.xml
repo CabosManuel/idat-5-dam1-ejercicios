@@ -20,32 +20,42 @@
         android:layout_height="wrap_content"
         android:text="@string/valtitulobasico"
         android:id="@+id/btnbasico"
+        android:textSize="16dp"
         android:textAlignment="center"></Button>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/valtitulomedio"
         android:id="@+id/btnmedio"
+        android:textSize="16dp"
         android:textAlignment="center"></Button>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/valtituloavanzado"
         android:id="@+id/btnavanzado"
+        android:textSize="16dp"
         android:textAlignment="center"></Button>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_vertical|center">
+        android:layout_height="300dp"
+        android:gravity="center|bottom">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="16dp"
             android:text="@string/valbtnejercicioalazar"
             android:id="@+id/btnejercicioalazar"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tvejercicioalazar"
-            android:layout_marginHorizontal="20dp"></TextView>
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:id="@+id/tvejercicioalazar"></TextView>
     </LinearLayout>
 </LinearLayout>
