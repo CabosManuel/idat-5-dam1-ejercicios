@@ -58,23 +58,23 @@ public class NivelBasicoActivity extends AppCompatActivity implements View.OnCli
                 startActivity(new Intent(NivelBasicoActivity.this, Ejercicio04Activity.class));
                 break;
             /*case R.id.btne5:
-                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio5.class));
+                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio5Activity.class));
                 break;
             case R.id.btne6:
-                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio6.class));
+                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio6Activity.class));
                 break;
             case R.id.btne7:
-                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio7.class));
+                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio7Activity.class));
                 break;
             case R.id.btne8:
-                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio8.class));
+                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio8Activity.class));
                 break;
             case R.id.btne9:
-                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio9.class));
-                break;
-            case R.id.btne10:
-                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio10.class));
+                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio9Activity.class));
                 break;*/
+            case R.id.btne10:
+                startActivity(new Intent(NivelBasicoActivity.this,Ejercicio10Activity.class));
+                break;
             case R.id.btnvolver:
                 finish();
                 break;

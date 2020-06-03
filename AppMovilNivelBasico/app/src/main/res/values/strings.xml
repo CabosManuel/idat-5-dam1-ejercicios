@@ -46,5 +46,6 @@
     <string name="valbtndivision">÷</string>
     <string name="valbtnejercicioalazar">EJERCICIO ALAZAR</string>
     <string name="valtvfactorial">Ingrese un número, para calcular su factorial:</string>
+    <string name="valtvvelocidadkm">Ingrese la velocidad en km/h</string>
 
 </resources>
