@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Ejercicio4Activity extends AppCompatActivity implements View.OnClickListener {
+public class Ejercicio04Activity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnVolver, btnSuma, btnResta, btnMultiplicacion, btnDivision;
     private EditText etNumeroNatural1, etNumeroNatural2;
@@ -17,7 +17,7 @@ public class Ejercicio4Activity extends AppCompatActivity implements View.OnClic
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ejercicio4);
+        setContentView(R.layout.activity_ejercicio04);
 
         btnVolver = findViewById(R.id.btnvolver);
         btnSuma = findViewById(R.id.btnsuma);

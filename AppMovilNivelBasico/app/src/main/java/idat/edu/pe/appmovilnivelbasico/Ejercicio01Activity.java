@@ -2,14 +2,13 @@ package idat.edu.pe.appmovilnivelbasico;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Ejercicio1Activity extends AppCompatActivity {
+public class Ejercicio01Activity extends AppCompatActivity {
 
     private Button btnVolver,btnCalcular;
     private EditText etNumero;
@@ -18,7 +17,7 @@ public class Ejercicio1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ejercicio1);
+        setContentView(R.layout.activity_ejercicio01);
 
         btnVolver = findViewById(R.id.btnvolver);
         etNumero = findViewById(R.id.etnumero);

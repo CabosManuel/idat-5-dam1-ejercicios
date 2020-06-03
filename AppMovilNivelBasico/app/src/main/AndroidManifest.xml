@@ -13,10 +13,10 @@
         <activity android:name=".Ejercicio21Activity" />
         <activity android:name=".Ejercicio15Activity" />
         <activity android:name=".NivelMedioActivity" />
-        <activity android:name=".Ejercicio4Activity" />
-        <activity android:name=".Ejercicio3Activity" />
-        <activity android:name=".Ejercicio2Activity" />
-        <activity android:name=".Ejercicio1Activity" />
+        <activity android:name=".Ejercicio04Activity" />
+        <activity android:name=".Ejercicio03Activity" />
+        <activity android:name=".Ejercicio02Activity" />
+        <activity android:name=".Ejercicio01Activity" />
         <activity android:name=".NivelBasicoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

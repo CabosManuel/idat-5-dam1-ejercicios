@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Ejercicio2Activity extends AppCompatActivity {
+public class Ejercicio02Activity extends AppCompatActivity {
 
     private EditText etC1,etC2;
     private Button btnCalcular,btnVolver;
@@ -17,7 +17,7 @@ public class Ejercicio2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ejercicio2);
+        setContentView(R.layout.activity_ejercicio02);
 
         etC1 = findViewById(R.id.etc1);
         etC2 = findViewById(R.id.etc2);
