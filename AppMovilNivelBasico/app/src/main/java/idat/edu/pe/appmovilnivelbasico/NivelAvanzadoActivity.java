@@ -45,25 +45,25 @@ public class NivelAvanzadoActivity extends AppCompatActivity implements View.OnC
                 startActivity(new Intent(NivelAvanzadoActivity.this, Ejercicio21Activity.class));
                 break;
             /*case R.id.btne22:
-                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio22.class));
-                break;
+                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio22Activity.class));
+                break;*/
             case R.id.btne23:
-                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio23.class));
+                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio23Activity.class));
                 break;
-            case R.id.btne24:
-                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio24.class));
+            /*case R.id.btne24:
+                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio24Activity.class));
                 break;
             case R.id.btne25:
-                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio25.class));
+                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio25Activity.class));
                 break;
             case R.id.btne26:
-                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio26.class));
+                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio26Activity.class));
                 break;
             case R.id.btne27:
-                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio27.class));
+                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio27Activity.class));
                 break;
             case R.id.btne28:
-                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio28.class));
+                startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio28Activity.class));
                 break;*/
             case R.id.btnvolver:
                 finish();
