@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnbasico:
-                startActivity(new Intent(MainActivity.this, Ejercicio1Activity.class));
+                startActivity(new Intent(MainActivity.this, NivelBasicoActivity.class));
                 break;
             case R.id.btnmedio:
                 startActivity(new Intent(MainActivity.this, NivelMedioActivity.class));

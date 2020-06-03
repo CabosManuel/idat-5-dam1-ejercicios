@@ -61,6 +61,9 @@ public class Ejercicio04Activity extends AppCompatActivity implements View.OnCli
                 case R.id.btndivision:
                     resultado = n1 / n2;
                     break;
+                case R.id.btnvolver:
+                    finish();
+                    break;
             }
             tvResultado.setText(resultado.toString());
         }

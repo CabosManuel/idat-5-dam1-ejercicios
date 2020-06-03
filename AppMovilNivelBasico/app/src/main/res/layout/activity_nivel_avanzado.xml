@@ -61,4 +61,14 @@
         android:text="@string/vale28"
         android:id="@+id/btne28"
         android:textAlignment="center"></Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btnvolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valbtnvolver"></Button>
+    </LinearLayout>
 </LinearLayout>

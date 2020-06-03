@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class NivelBasicoActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private Button btnE1,btnE2,btnE3,btnE4,btnE5,btnE6,btnE7,btnE8,btnE9,btnE10;
+    private Button btnE1,btnE2,btnE3,btnE4,btnE5,btnE6,btnE7,btnE8,btnE9,btnE10,btnVolver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -27,6 +27,7 @@ public class NivelBasicoActivity extends AppCompatActivity implements View.OnCli
         btnE8 = findViewById(R.id.btne8);
         btnE9 = findViewById(R.id.btne9);
         btnE10 = findViewById(R.id.btne10);
+        btnVolver = findViewById(R.id.btnvolver);
 
         btnE1.setOnClickListener(this);
         btnE2.setOnClickListener(this);
@@ -38,22 +39,23 @@ public class NivelBasicoActivity extends AppCompatActivity implements View.OnCli
         btnE8.setOnClickListener(this);
         btnE9.setOnClickListener(this);
         btnE10.setOnClickListener(this);
+        btnVolver.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btne1:
-                startActivity(new Intent(NivelBasicoActivity.this, Ejercicio1Activity.class));
+                startActivity(new Intent(NivelBasicoActivity.this, Ejercicio01Activity.class));
                 break;
             case R.id.btne2:
-                startActivity(new Intent(NivelBasicoActivity.this, Ejercicio2Activity.class));
+                startActivity(new Intent(NivelBasicoActivity.this, Ejercicio02Activity.class));
                 break;
             case R.id.btne3:
-                startActivity(new Intent(NivelBasicoActivity.this, Ejercicio3Activity.class));
+                startActivity(new Intent(NivelBasicoActivity.this, Ejercicio03Activity.class));
                 break;
             case R.id.btne4:
-                startActivity(new Intent(NivelBasicoActivity.this, Ejercicio4Activity.class));
+                startActivity(new Intent(NivelBasicoActivity.this, Ejercicio04Activity.class));
                 break;
             /*case R.id.btne5:
                 startActivity(new Intent(NivelBasicoActivity.this,Ejercicio5.class));
@@ -73,6 +75,9 @@ public class NivelBasicoActivity extends AppCompatActivity implements View.OnCli
             case R.id.btne10:
                 startActivity(new Intent(NivelBasicoActivity.this,Ejercicio10.class));
                 break;*/
+            case R.id.btnvolver:
+                finish();
+                break;
             default:
                 Toast.makeText(getApplicationContext(), "El botón no esta mapeado", Toast.LENGTH_SHORT).show();
                 break;

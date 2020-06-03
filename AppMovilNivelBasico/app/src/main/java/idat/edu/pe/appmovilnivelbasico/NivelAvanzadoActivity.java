@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class NivelAvanzadoActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private Button btnE21,btnE22,btnE23,btnE24,btnE25,btnE26,btnE27,btnE28;
+    private Button btnE21,btnE22,btnE23,btnE24,btnE25,btnE26,btnE27,btnE28,btnVolver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class NivelAvanzadoActivity extends AppCompatActivity implements View.OnC
         btnE26 = findViewById(R.id.btne26);
         btnE27 = findViewById(R.id.btne27);
         btnE28 = findViewById(R.id.btne28);
+        btnVolver = findViewById(R.id.btnvolver);
 
         btnE21.setOnClickListener(this);
         btnE22.setOnClickListener(this);
@@ -34,6 +35,7 @@ public class NivelAvanzadoActivity extends AppCompatActivity implements View.OnC
         btnE26.setOnClickListener(this);
         btnE27.setOnClickListener(this);
         btnE28.setOnClickListener(this);
+        btnVolver.setOnClickListener(this);
     }
 
     @Override
@@ -63,6 +65,9 @@ public class NivelAvanzadoActivity extends AppCompatActivity implements View.OnC
             case R.id.btne28:
                 startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio28.class));
                 break;*/
+            case R.id.btnvolver:
+                finish();
+                break;
             default:
                 Toast.makeText(getApplicationContext(), "El botón no esta mapeado", Toast.LENGTH_SHORT).show();
                 break;

@@ -79,6 +79,7 @@
         android:layout_height="match_parent"
         android:gravity="bottom">
         <Button
+            android:id="@+id/btnvolver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/valbtnvolver"></Button>
