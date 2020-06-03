@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Ejercicio3 extends AppCompatActivity implements View.OnClickListener{
+public class Ejercicio3Activity extends AppCompatActivity implements View.OnClickListener{
 
     private Button btnVolver,btnCalcular;
     private EditText etNota;

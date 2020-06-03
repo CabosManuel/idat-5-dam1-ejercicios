@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ejercicio21"></activity>
-        <activity android:name=".Ejercicio15" />
-        <activity android:name=".NivelMedio" />
-        <activity android:name=".Ejercicio4" />
-        <activity android:name=".Ejercicio3" />
-        <activity android:name=".Ejercicio2" />
-        <activity android:name=".Ejercicio1" />
-        <activity android:name=".NivelBasico" />
+        <activity android:name=".NivelAvanzadoActivity"></activity>
+        <activity android:name=".Ejercicio21Activity" />
+        <activity android:name=".Ejercicio15Activity" />
+        <activity android:name=".NivelMedioActivity" />
+        <activity android:name=".Ejercicio4Activity" />
+        <activity android:name=".Ejercicio3Activity" />
+        <activity android:name=".Ejercicio2Activity" />
+        <activity android:name=".Ejercicio1Activity" />
+        <activity android:name=".NivelBasicoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

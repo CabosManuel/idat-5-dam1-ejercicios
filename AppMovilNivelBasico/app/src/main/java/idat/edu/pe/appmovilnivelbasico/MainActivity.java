@@ -9,12 +9,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button btnBasico,btnMedio,btnAvanzado,btnEjercicioAlazar;
@@ -41,48 +35,41 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnbasico:
-                startActivity(new Intent(MainActivity.this,Ejercicio1.class));
+                startActivity(new Intent(MainActivity.this, Ejercicio1Activity.class));
                 break;
             case R.id.btnmedio:
-                startActivity(new Intent(MainActivity.this,NivelMedio.class));
+                startActivity(new Intent(MainActivity.this, NivelMedioActivity.class));
                 break;
-            /*case R.id.btnavanzado:
-                startActivity(new Intent(MainActivity.this,NivelAvanzado.class));
-                break;*/
+            case R.id.btnavanzado:
+                startActivity(new Intent(MainActivity.this,NivelAvanzadoActivity.class));
+                break;
             case R.id.btnejercicioalazar:
-                tvEjercicioAlazar.setText(ejercicioAlazar());
+                tvEjercicioAlazar.setText(ejercicioAlazar().toString());
                 break;
             default:
-                //Toast.makeText(getApplicationContext(), "El botón no esta mapeado", Toast.LENGTH_SHORT).show();
-
+                Toast.makeText(getApplicationContext(), "El botón no esta mapeado", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
 
-    private int ejercicioAlazar() {
-
-
+    private Integer ejercicioAlazar() {
         int[] resueltos = {1, 2, 3, 4, 15, 21};
         int ejercicio = 0;
-
         boolean existe = true;
 
         while (existe) {
             while (ejercicio > 28 || ejercicio == 0) {
                 ejercicio = (int) Math.round(Math.random() * 100);
             }
-
             for (int resuelto : resueltos) {
                 if (ejercicio == resuelto) {
                     ejercicio = 0;
                     break;
                 }
-
                 if (resuelto == resueltos[resueltos.length - 1]) {
                     existe = false;
                 }
             }
-            System.out.println(existe);
         }
         return ejercicio;
     }

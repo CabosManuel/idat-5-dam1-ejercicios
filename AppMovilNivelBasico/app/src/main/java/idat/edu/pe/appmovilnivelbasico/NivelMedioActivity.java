@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class NivelMedio extends AppCompatActivity implements View.OnClickListener{
+public class NivelMedioActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button btnE11,btnE12,btnE13,btnE14,btnE15,btnE16,btnE17,btnE18,btnE19,btnE20;
         
@@ -44,34 +44,34 @@ public class NivelMedio extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()){
             /*case R.id.btne11:
-                startActivity(new Intent(NivelMedio.this,Ejercicio11.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio11.class));
                 break;
             case R.id.btne12:
-                startActivity(new Intent(NivelMedio.this,Ejercicio12.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio12.class));
                 break;
             case R.id.btne13:
-                startActivity(new Intent(NivelMedio.this,Ejercicio13.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio13.class));
                 break;
             case R.id.btne14:
-                startActivity(new Intent(NivelMedio.this,Ejercicio14.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio14.class));
                 break;*/
             case R.id.btne15:
-                startActivity(new Intent(NivelMedio.this,Ejercicio15.class));
+                startActivity(new Intent(NivelMedioActivity.this, Ejercicio15Activity.class));
                 break;
             /*case R.id.btne16:
-                startActivity(new Intent(NivelMedio.this,Ejercicio16.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio16.class));
                 break;
             case R.id.btne17:
-                startActivity(new Intent(NivelMedio.this,Ejercicio17.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio17.class));
                 break;
             case R.id.btne18:
-                startActivity(new Intent(NivelMedio.this,Ejercicio18.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio18.class));
                 break;
             case R.id.btne19:
-                startActivity(new Intent(NivelMedio.this,Ejercicio19.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio19.class));
                 break;
             case R.id.btne20:
-                startActivity(new Intent(NivelMedio.this,Ejercicio20.class));
+                startActivity(new Intent(NivelMedioActivity.this,Ejercicio20.class));
                 break;*/
             default:
                 Toast.makeText(getApplicationContext(), "El botón no esta mapeado", Toast.LENGTH_SHORT).show();

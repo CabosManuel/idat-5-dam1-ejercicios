@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Ejercicio15 extends AppCompatActivity implements View.OnClickListener{
+public class Ejercicio15Activity extends AppCompatActivity implements View.OnClickListener{
 
     private Button btnVolver,btnCalcular;
     private EditText etNumero;

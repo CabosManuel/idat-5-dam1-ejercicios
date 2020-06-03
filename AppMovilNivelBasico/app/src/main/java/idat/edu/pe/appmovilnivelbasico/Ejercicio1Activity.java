@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Ejercicio1 extends AppCompatActivity {
+public class Ejercicio1Activity extends AppCompatActivity {
 
     private Button btnVolver,btnCalcular;
     private EditText etNumero;
