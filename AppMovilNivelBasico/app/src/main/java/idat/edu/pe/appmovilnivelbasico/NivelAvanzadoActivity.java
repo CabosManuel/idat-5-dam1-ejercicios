@@ -58,11 +58,11 @@ public class NivelAvanzadoActivity extends AppCompatActivity implements View.OnC
                 break;
             case R.id.btne26:
                 startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio26Activity.class));
-                break;
+                break;*/
             case R.id.btne27:
                 startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio27Activity.class));
                 break;
-            case R.id.btne28:
+            /*case R.id.btne28:
                 startActivity(new Intent(NivelAvanzadoActivity.this,Ejercicio28Activity.class));
                 break;*/
             case R.id.btnvolver:

@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this,NivelAvanzadoActivity.class));
                 break;
             case R.id.btnejercicioalazar:
-                tvEjercicioAlazar.setText(ejercicioAlazar().toString());
+                tvEjercicioAlazar.setText(ejercicioAlazar());
                 break;
             default:
                 Toast.makeText(getApplicationContext(), "El botón no esta mapeado", Toast.LENGTH_SHORT).show();
@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private Integer ejercicioAlazar() {
-        int[] resueltos = {1, 2, 3, 4, 10, 15, 21};
-        int ejercicio = 0;
+    private String ejercicioAlazar() {
+        int[] resueltos = {1, 2, 3, 4, 10, 15, 21, 23,27};
+        Integer ejercicio = 0;
         boolean existe = true;
 
         while (existe) {
@@ -71,6 +71,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }
-        return ejercicio;
+        return ejercicio.toString();
     }
 }
