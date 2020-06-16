@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private String ejercicioAlazar() {
-        int[] resueltos = {1, 2, 3, 4, 10, 15, 21, 23,27};
+        int[] resueltos = {1, 2, 3, 4, 10, 15, 21, 23, 25, 27};
         Integer ejercicio = 0;
         boolean existe = true;
 
