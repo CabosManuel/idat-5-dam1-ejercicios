@@ -48,6 +48,7 @@
     <string name="valtvfactorial">Ingrese un número, para calcular su factorial:</string>
     <string name="valtvvelocidadkm">Ingrese la velocidad en km/h</string>
     <string name="valtvfibonacci">Ingrese un número (max. 93), para calcular su serie Fibonacci:</string>
-    <string name="valtvmaxcomundiv">Ingrese 3 números:</string>
+    <string name="valtvmcd">Ingrese 3 números para calcular el MCD:</string>
+    <string name="valtvmcm">Ingrese 2 números para calcular el MCM:</string>
 
 </resources>
