@@ -1,0 +1,102 @@
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/vale"
+		android:textStyle="bold"
+		android:textSize="30dp"
+		android:layout_marginTop="20dp"
+		android:textAlignment="center"></TextView>
+</LinearLayout>
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="24dp"
+android:layout_margin="20dp"
+android:text="@string/valtv"></TextView>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_vertical|center">
+
+
+<EditText
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:id="@+id/et"
+	android:inputType=""
+	android:textAlignment="center"
+	android:maxLength=""
+	android:layout_margin="10dp"
+	android:textSize="18dp"></EditText>
+
+
+
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center">
+<Button
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/valbtncalcular"
+	android:id="@+id/btncalcular"
+	android:textSize="15dp"
+	android:textStyle="bold"
+	android:layout_margin="10dp"></Button>
+</LinearLayout>
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/valtvresultado"
+android:layout_marginLeft="10dp"
+android:textSize="20dp"></TextView>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="20dp"
+	android:id="@+id/tvresultado"></TextView>
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center">
+<Button
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/valbtnvolver"
+	android:layout_margin="10dp"
+	android:id="@+id/btnvolver"></Button>
+</LinearLayout>
+
+private Button btnVolver,btnCalcular;
+private TextView tvResultado;
+
+btnVolver = findViewById(R.id.btnvolver);
+btnCalcular = findViewById(R.id.btncalcular);
+tvResultado = findViewById(R.id.tvresultado);
+
+btnVolver.setOnClickListener(this);
+btnCalcular.setOnClickListener(this);
+
+switch (v.getId()){
+	case R.id.btncalcular:
+		if(.getText().toString().equals("")){
+			.setError("Ingrese ");
+		}else{
+			
+		}
+		break;
+	case R.id.btnvolver:
+		finish();
+		break;
+	}
+}
